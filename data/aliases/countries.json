@@ -1,0 +1,146 @@
+{
+  "_comment": "World Bank Data360 - 国家群组别名配置",
+  "_updated": "2026-03-25",
+  
+  "brics_founding": {
+    "_name": "金砖五国（创始成员国）",
+    "codes": ["BRA", "RUS", "IND", "CHN", "ZAF"]
+  },
+  
+  "brics": {
+    "_name": "金砖国家（含新成员）",
+    "_note": "2024 年扩容后",
+    "codes": ["BRA", "RUS", "IND", "CHN", "ZAF", "EGY", "ETH", "IRN", "ARE", "SAU"]
+  },
+  
+  "ndb_members": {
+    "_name": "NDB 新开发银行成员国",
+    "_note": "包括创始成员国和后续加入成员",
+    "codes": ["BRA", "RUS", "IND", "CHN", "ZAF", "BGD", "ARE", "URY", "EGY"]
+  },
+  
+  "ndb_founders": {
+    "_name": "NDB 创始成员国",
+    "codes": ["BRA", "RUS", "IND", "CHN", "ZAF"]
+  },
+  
+  "ndb_new": {
+    "_name": "NDB 新成员国（2021 后加入）",
+    "codes": ["BGD", "ARE", "URY", "EGY"]
+  },
+  
+  "g7": {
+    "_name": "七国集团",
+    "codes": ["USA", "JPN", "DEU", "GBR", "FRA", "ITA", "CAN"]
+  },
+  
+  "g20": {
+    "_name": "二十国集团",
+    "codes": ["ARG", "AUS", "BRA", "CAN", "CHN", "FRA", "DEU", "IND", "IDN", "ITA", "JPN", "KOR", "MEX", "RUS", "SAU", "ZAF", "TUR", "GBR", "USA", "EU"]
+  },
+  
+  "oecd": {
+    "_name": "经合组织成员国",
+    "codes": ["AUS", "AUT", "BEL", "CAN", "CHL", "COL", "CRI", "CZE", "DNK", "EST", "FIN", "FRA", "DEU", "GRC", "HUN", "ISL", "IRL", "ISR", "ITA", "JPN", "KOR", "LVA", "LTU", "LUX", "MEX", "NLD", "NZL", "NOR", "POL", "PRT", "SVK", "SVN", "ESP", "SWE", "CHE", "TUR", "GBR", "USA"]
+  },
+  
+  "eu": {
+    "_name": "欧盟",
+    "codes": ["AUT", "BEL", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FIN", "FRA", "DEU", "GRC", "HUN", "IRL", "ITA", "LVA", "LTU", "LUX", "MLT", "NLD", "POL", "PRT", "ROU", "SVK", "SVN", "ESP", "SWE"]
+  },
+  
+  "asean": {
+    "_name": "东盟",
+    "codes": ["BRN", "KHM", "IDN", "LAO", "MYS", "MMR", "PHL", "SGP", "THA", "VNM"]
+  },
+  
+  "saarc": {
+    "_name": "南亚区域合作联盟",
+    "codes": ["AFG", "BGD", "BTN", "IND", "MDV", "NPL", "PAK", "LKA"]
+  },
+  
+  "africa": {
+    "_name": "非洲",
+    "codes": ["DZA", "AGO", "BEN", "BWA", "BFA", "BDI", "CPV", "CMR", "CAF", "TCD", "COM", "COD", "COG", "CIV", "DJI", "EGY", "GNQ", "ERI", "SWZ", "ETH", "GAB", "GMB", "GHA", "GIN", "GNB", "KEN", "LSO", "LBR", "LBY", "MDG", "MWI", "MLI", "MRT", "MUS", "MAR", "MOZ", "NAM", "NER", "NGA", "RWA", "STP", "SEN", "SYC", "SLE", "SOM", "ZAF", "SSD", "SDN", "TZA", "TGO", "TUN", "UGA", "ZMB", "ZWE"]
+  },
+  
+  "asia": {
+    "_name": "亚洲",
+    "codes": ["AFG", "ARM", "AZE", "BHR", "BGD", "BTN", "BRN", "KHM", "CHN", "CYP", "GEO", "HKG", "IND", "IDN", "IRN", "IRQ", "ISR", "JPN", "JOR", "KAZ", "KWT", "KGZ", "LAO", "LBN", "MAC", "MYS", "MDV", "MNG", "MMR", "NPL", "PRK", "OMN", "PAK", "PSE", "PHL", "QAT", "SAU", "SGP", "KOR", "LKA", "SYR", "TWN", "TJK", "THA", "TLS", "TUR", "TKM", "ARE", "UZB", "VNM", "YEM"]
+  },
+  
+  "europe": {
+    "_name": "欧洲",
+    "codes": ["ALB", "AND", "AUT", "BLR", "BEL", "BIH", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FRO", "FIN", "FRA", "DEU", "GIB", "GRC", "GRL", "HUN", "ISL", "IRL", "IMN", "ITA", "XKX", "LVA", "LIE", "LTU", "LUX", "MKD", "MLT", "MDA", "MCO", "MNE", "NLD", "NOR", "POL", "PRT", "ROU", "RUS", "SMR", "SRB", "SVK", "SVN", "ESP", "SWE", "CHE", "UKR", "GBR"]
+  },
+  
+  "americas": {
+    "_name": "美洲",
+    "codes": ["ARG", "ABW", "BHS", "BRB", "BLZ", "BOL", "BRA", "VGB", "CAN", "CYM", "CHL", "COL", "CRI", "CUB", "CUW", "DMA", "DOM", "ECU", "SLV", "GRD", "GTM", "GUY", "HTI", "HND", "JAM", "MEX", "NIC", "PAN", "PRY", "PER", "PRI", "KNA", "LCA", "MAF", "VCT", "SXM", "SUR", "TTO", "TCA", "USA", "URY", "VEN", "VIR"]
+  },
+  
+  "latin_america": {
+    "_name": "拉丁美洲",
+    "codes": ["ARG", "BOL", "BRA", "CHL", "COL", "CRI", "CUB", "DOM", "ECU", "SLV", "GRD", "GTM", "GUY", "HTI", "HND", "JAM", "MEX", "NIC", "PAN", "PRY", "PER", "PRI", "SUR", "TTO", "URY", "VEN"]
+  },
+  
+  "middle_east": {
+    "_name": "中东",
+    "codes": ["BHR", "IRN", "IRQ", "ISR", "JOR", "KWT", "LBN", "OMN", "PSE", "QAT", "SAU", "SYR", "ARE", "YEM"]
+  },
+  
+  "high_income": {
+    "_name": "高收入经济体（World Bank 分类）",
+    "codes": ["AND", "ARE", "ATG", "ABW", "AUS", "AUT", "BHS", "BHR", "BRB", "BEL", "BLM", "BMU", "BRN", "BGR", "CAN", "CYM", "CHI", "HRV", "CUW", "CYP", "CZE", "DNK", "EST", "FRO", "FIN", "FRA", "PYF", "DEU", "GIB", "GRC", "GRL", "GUM", "HKG", "HUN", "ISL", "IRL", "IMN", "ISR", "ITA", "JPN", "KAZ", "KOR", "KWT", "LVA", "LIE", "LTU", "LUX", "MAC", "MLT", "MCO", "NLD", "NCL", "NZL", "MNP", "NOR", "OMN", "PLW", "PAN", "PRI", "POL", "PRT", "PRI", "QAT", "ROU", "RUS", "MAF", "KNA", "SMR", "SAU", "SGP", "SXM", "SVK", "SVN", "ESP", "SWE", "CHE", "TWN", "TTO", "TCA", "GBR", "USA", "URY"]
+  },
+  
+  "upper_middle_income": {
+    "_name": "中高收入经济体",
+    "codes": ["ALB", "DZA", "ARG", "ARM", "AZE", "BLR", "BLZ", "BIH", "BWA", "BRA", "BGR", "CHN", "COL", "CRI", "CUB", "DOM", "ECU", "GNQ", "GAB", "GEO", "GRC", "GRD", "GUM", "GUY", "HND", "HUN", "IRN", "IRQ", "JAM", "JOR", "KAZ", "LBN", "LBY", "MAC", "MYS", "MDV", "MEX", "MNE", "NAM", "NCL", "MKD", "MNG", "MNE", "PER", "SRB", "RUS", "LCA", "VCT", "ZAF", "SUR", "THA", "TUN", "TUR", "TKM", "URY", "VEN", "VIR"]
+  },
+  
+  "lower_middle_income": {
+    "_name": "中低收入经济体",
+    "codes": ["AGO", "BGD", "BTN", "BOL", "CPV", "KHM", "CMR", "CAF", "TCD", "COM", "COG", "CIV", "DJI", "EGY", "SLV", "ERI", "SWZ", "ETH", "FJI", "GMB", "GHA", "GIN", "GNB", "HTI", "IND", "IDN", "KEN", "PRK", "KGZ", "LAO", "LSO", "MDG", "MWI", "MLI", "MRT", "FSM", "MAR", "MOZ", "MMR", "NPL", "NIC", "NER", "NGA", "PAK", "PNG", "PHL", "RWA", "WSM", "STP", "SEN", "SRB", "SLE", "SLB", "SOM", "LKA", "SDN", "SYR", "TJK", "TZA", "TLS", "TGO", "TON", "TUN", "UGA", "UKR", "UZB", "VNM", "YEM", "ZMB", "ZWE"]
+  },
+  
+  "low_income": {
+    "_name": "低收入经济体",
+    "codes": ["AFG", "BFA", "BDI", "COD", "ERI", "ETH", "GMB", "GIN", "GNB", "HTI", "PRK", "LBR", "MDG", "MWI", "MLI", "MOZ", "NER", "RWA", "SLE", "SOM", "SSD", "SDN", "TGO", "UGA", "ZWE"]
+  },
+  
+  "sub_saharan_africa": {
+    "_name": "撒哈拉以南非洲",
+    "codes": ["AGO", "BEN", "BWA", "BFA", "BDI", "CPV", "CMR", "CAF", "TCD", "COM", "COD", "COG", "CIV", "GNQ", "ERI", "SWZ", "ETH", "GAB", "GMB", "GHA", "GIN", "GNB", "KEN", "LSO", "LBR", "MDG", "MWI", "MLI", "MRT", "MUS", "MOZ", "NAM", "NER", "NGA", "RWA", "STP", "SEN", "SYC", "SLE", "SOM", "ZAF", "SSD", "SDN", "TZA", "TGO", "UGA", "ZMB", "ZWE"]
+  },
+  
+  "south_asia": {
+    "_name": "南亚",
+    "codes": ["AFG", "BGD", "BTN", "IND", "MDV", "NPL", "PAK", "LKA"]
+  },
+  
+  "east_asia_pacific": {
+    "_name": "东亚与太平洋",
+    "codes": ["ASM", "AUS", "BRN", "KHM", "CHN", "FJI", "PYF", "GUM", "HKG", "IDN", "JPN", "KIR", "PRK", "KOR", "LAO", "MAC", "MYS", "MHL", "FSM", "MNG", "MMR", "NRU", "NCL", "NZL", "MNP", "PLW", "PNG", "PHL", "WSM", "SGP", "SLB", "TWN", "THA", "TLS", "TON", "TUV", "VUT", "VNM"]
+  },
+  
+  "europe_central_asia": {
+    "_name": "欧洲与中亚",
+    "codes": ["ALB", "AND", "ARM", "AUT", "AZE", "BLR", "BEL", "BIH", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "FRO", "FIN", "FRA", "GEO", "DEU", "GIB", "GRC", "GRL", "HUN", "ISL", "IRL", "IMN", "ITA", "XKX", "KAZ", "XKX", "LVA", "LIE", "LTU", "LUX", "MKD", "MLT", "MDA", "MCO", "MNE", "NLD", "NOR", "POL", "PRT", "ROU", "RUS", "SMR", "SRB", "SVK", "SVN", "ESP", "SWE", "CHE", "TJK", "TUR", "TKM", "UKR", "GBR", "UZB"]
+  },
+  
+  "latin_america_caribbean": {
+    "_name": "拉丁美洲与加勒比",
+    "codes": ["ARG", "ABW", "BHS", "BRB", "BLZ", "BOL", "BRA", "VGB", "CYM", "CHL", "COL", "CRI", "CUB", "CUW", "DMA", "DOM", "ECU", "SLV", "GRD", "GTM", "GUY", "HTI", "HND", "JAM", "MEX", "NIC", "PAN", "PRY", "PER", "PRI", "KNA", "LCA", "MAF", "VCT", "SXM", "SUR", "TTO", "TCA", "URY", "VEN", "VIR"]
+  },
+  
+  "north_america": {
+    "_name": "北美",
+    "codes": ["BMU", "CAN", "USA"]
+  },
+  
+  "middle_east_north_africa": {
+    "_name": "中东与北非",
+    "codes": ["DZA", "BHR", "DJI", "EGY", "IRN", "IRQ", "ISR", "JOR", "KWT", "LBN", "LBY", "MAR", "OMN", "PSE", "QAT", "SAU", "SYR", "TUN", "ARE", "YEM"]
+  }
+}

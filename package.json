@@ -1,0 +1,26 @@
+{
+  "name": "worldbank-analyzer",
+  "version": "1.0.0",
+  "description": "World Bank Data360 Analyzer - WDI 数据查询与分析工具",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/api.test.js",
+    "example": "node examples/query-examples.js",
+    "clear-cache": "rm -rf data/cache/*.json"
+  },
+  "keywords": [
+    "world-bank",
+    "wdi",
+    "data360",
+    "economic-data",
+    "data-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
