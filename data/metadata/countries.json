@@ -2376,24 +2376,9 @@
       "name": "Aruba"
     },
     {
-      "id": "AFE",
-      "iso2Code": "ZH",
-      "name": "Africa Eastern and Southern"
-    },
-    {
       "id": "AFG",
       "iso2Code": "AF",
       "name": "Afghanistan"
-    },
-    {
-      "id": "AFR",
-      "iso2Code": "A9",
-      "name": "Africa"
-    },
-    {
-      "id": "AFW",
-      "iso2Code": "ZI",
-      "name": "Africa Western and Central"
     },
     {
       "id": "AGO",
@@ -2409,11 +2394,6 @@
       "id": "AND",
       "iso2Code": "AD",
       "name": "Andorra"
-    },
-    {
-      "id": "ARB",
-      "iso2Code": "1A",
-      "name": "Arab World"
     },
     {
       "id": "ARE",
@@ -2461,16 +2441,6 @@
       "name": "Burundi"
     },
     {
-      "id": "BEA",
-      "iso2Code": "B4",
-      "name": "East Asia & Pacific (IBRD-only countries)"
-    },
-    {
-      "id": "BEC",
-      "iso2Code": "B7",
-      "name": "Europe & Central Asia (IBRD-only countries)"
-    },
-    {
       "id": "BEL",
       "iso2Code": "BE",
       "name": "Belgium"
@@ -2496,11 +2466,6 @@
       "name": "Bulgaria"
     },
     {
-      "id": "BHI",
-      "iso2Code": "B1",
-      "name": "IBRD countries classified as high income"
-    },
-    {
       "id": "BHR",
       "iso2Code": "BH",
       "name": "Bahrain"
@@ -2516,11 +2481,6 @@
       "name": "Bosnia and Herzegovina"
     },
     {
-      "id": "BLA",
-      "iso2Code": "B2",
-      "name": "Latin America & the Caribbean (IBRD-only countries)"
-    },
-    {
       "id": "BLR",
       "iso2Code": "BY",
       "name": "Belarus"
@@ -2529,11 +2489,6 @@
       "id": "BLZ",
       "iso2Code": "BZ",
       "name": "Belize"
-    },
-    {
-      "id": "BMN",
-      "iso2Code": "B3",
-      "name": "Middle East, North Africa, Afghanistan & Pakistan (IBRD only)"
     },
     {
       "id": "BMU",
@@ -2561,11 +2516,6 @@
       "name": "Brunei Darussalam"
     },
     {
-      "id": "BSS",
-      "iso2Code": "B6",
-      "name": "Sub-Saharan Africa (IBRD-only countries)"
-    },
-    {
       "id": "BTN",
       "iso2Code": "BT",
       "name": "Bhutan"
@@ -2574,11 +2524,6 @@
       "id": "BWA",
       "iso2Code": "BW",
       "name": "Botswana"
-    },
-    {
-      "id": "CAA",
-      "iso2Code": "C9",
-      "name": "Sub-Saharan Africa (IFC classification)"
     },
     {
       "id": "CAF",
@@ -2591,29 +2536,9 @@
       "name": "Canada"
     },
     {
-      "id": "CEA",
-      "iso2Code": "C4",
-      "name": "East Asia and the Pacific (IFC classification)"
-    },
-    {
-      "id": "CEB",
-      "iso2Code": "B8",
-      "name": "Central Europe and the Baltics"
-    },
-    {
-      "id": "CEU",
-      "iso2Code": "C5",
-      "name": "Europe and Central Asia (IFC classification)"
-    },
-    {
       "id": "CHE",
       "iso2Code": "CH",
       "name": "Switzerland"
-    },
-    {
-      "id": "CHI",
-      "iso2Code": "JG",
-      "name": "Channel Islands"
     },
     {
       "id": "CHL",
@@ -2629,16 +2554,6 @@
       "id": "CIV",
       "iso2Code": "CI",
       "name": "Cote d'Ivoire"
-    },
-    {
-      "id": "CLA",
-      "iso2Code": "C6",
-      "name": "Latin America and the Caribbean (IFC classification)"
-    },
-    {
-      "id": "CME",
-      "iso2Code": "C7",
-      "name": "Middle East and North Africa (IFC classification)"
     },
     {
       "id": "CMR",
@@ -2676,16 +2591,6 @@
       "name": "Costa Rica"
     },
     {
-      "id": "CSA",
-      "iso2Code": "C8",
-      "name": "South Asia (IFC classification)"
-    },
-    {
-      "id": "CSS",
-      "iso2Code": "S3",
-      "name": "Caribbean small states"
-    },
-    {
       "id": "CUB",
       "iso2Code": "CU",
       "name": "Cuba"
@@ -2711,16 +2616,6 @@
       "name": "Czechia"
     },
     {
-      "id": "DEA",
-      "iso2Code": "D4",
-      "name": "East Asia & Pacific (IDA-eligible countries)"
-    },
-    {
-      "id": "DEC",
-      "iso2Code": "D7",
-      "name": "Europe & Central Asia (IDA-eligible countries)"
-    },
-    {
       "id": "DEU",
       "iso2Code": "DE",
       "name": "Germany"
@@ -2731,19 +2626,9 @@
       "name": "Djibouti"
     },
     {
-      "id": "DLA",
-      "iso2Code": "D2",
-      "name": "Latin America & the Caribbean (IDA-eligible countries)"
-    },
-    {
       "id": "DMA",
       "iso2Code": "DM",
       "name": "Dominica"
-    },
-    {
-      "id": "DMN",
-      "iso2Code": "D3",
-      "name": "Middle East, North Africa, Afghanistan & Pakistan (IDA total)"
     },
     {
       "id": "DNK",
@@ -2751,59 +2636,14 @@
       "name": "Denmark"
     },
     {
-      "id": "DNS",
-      "iso2Code": "N6",
-      "name": "IDA countries in Sub-Saharan Africa not classified as fragile situations "
-    },
-    {
       "id": "DOM",
       "iso2Code": "DO",
       "name": "Dominican Republic"
     },
     {
-      "id": "DSA",
-      "iso2Code": "D5",
-      "name": "South Asia (IDA-eligible countries)"
-    },
-    {
-      "id": "DSF",
-      "iso2Code": "F6",
-      "name": "IDA countries in Sub-Saharan Africa classified as fragile situations "
-    },
-    {
-      "id": "DSS",
-      "iso2Code": "D6",
-      "name": "Sub-Saharan Africa (IDA-eligible countries)"
-    },
-    {
       "id": "DZA",
       "iso2Code": "DZ",
       "name": "Algeria"
-    },
-    {
-      "id": "EAP",
-      "iso2Code": "4E",
-      "name": "East Asia & Pacific (excluding high income)"
-    },
-    {
-      "id": "EAR",
-      "iso2Code": "V2",
-      "name": "Early-demographic dividend"
-    },
-    {
-      "id": "EAS",
-      "iso2Code": "Z4",
-      "name": "East Asia & Pacific"
-    },
-    {
-      "id": "ECA",
-      "iso2Code": "7E",
-      "name": "Europe & Central Asia (excluding high income)"
-    },
-    {
-      "id": "ECS",
-      "iso2Code": "Z7",
-      "name": "Europe & Central Asia"
     },
     {
       "id": "ECU",
@@ -2814,11 +2654,6 @@
       "id": "EGY",
       "iso2Code": "EG",
       "name": "Egypt, Arab Rep."
-    },
-    {
-      "id": "EMU",
-      "iso2Code": "XC",
-      "name": "Euro area"
     },
     {
       "id": "ERI",
@@ -2839,16 +2674,6 @@
       "id": "ETH",
       "iso2Code": "ET",
       "name": "Ethiopia"
-    },
-    {
-      "id": "EUU",
-      "iso2Code": "EU",
-      "name": "European Union"
-    },
-    {
-      "id": "FCS",
-      "iso2Code": "F1",
-      "name": "Fragile and conflict affected situations"
     },
     {
       "id": "FIN",
@@ -2966,11 +2791,6 @@
       "name": "Honduras"
     },
     {
-      "id": "HPC",
-      "iso2Code": "XE",
-      "name": "Heavily indebted poor countries (HIPC)"
-    },
-    {
       "id": "HRV",
       "iso2Code": "HR",
       "name": "Croatia"
@@ -2986,39 +2806,9 @@
       "name": "Hungary"
     },
     {
-      "id": "IBB",
-      "iso2Code": "ZB",
-      "name": "IBRD, including blend"
-    },
-    {
-      "id": "IBD",
-      "iso2Code": "XF",
-      "name": "IBRD only"
-    },
-    {
-      "id": "IBT",
-      "iso2Code": "ZT",
-      "name": "IDA & IBRD total"
-    },
-    {
-      "id": "IDA",
-      "iso2Code": "XG",
-      "name": "IDA total"
-    },
-    {
-      "id": "IDB",
-      "iso2Code": "XH",
-      "name": "IDA blend"
-    },
-    {
       "id": "IDN",
       "iso2Code": "ID",
       "name": "Indonesia"
-    },
-    {
-      "id": "IDX",
-      "iso2Code": "XI",
-      "name": "IDA only"
     },
     {
       "id": "IMN",
@@ -3029,11 +2819,6 @@
       "id": "IND",
       "iso2Code": "IN",
       "name": "India"
-    },
-    {
-      "id": "INX",
-      "iso2Code": "XY",
-      "name": "Not classified"
     },
     {
       "id": "IRL",
@@ -3121,11 +2906,6 @@
       "name": "Kuwait"
     },
     {
-      "id": "LAC",
-      "iso2Code": "XJ",
-      "name": "Latin America & Caribbean (excluding high income)"
-    },
-    {
       "id": "LAO",
       "iso2Code": "LA",
       "name": "Lao PDR"
@@ -3151,21 +2931,6 @@
       "name": "St. Lucia"
     },
     {
-      "id": "LCN",
-      "iso2Code": "ZJ",
-      "name": "Latin America & Caribbean "
-    },
-    {
-      "id": "LDC",
-      "iso2Code": "XL",
-      "name": "Least developed countries: UN classification"
-    },
-    {
-      "id": "LIC",
-      "iso2Code": "XM",
-      "name": "Low income"
-    },
-    {
       "id": "LIE",
       "iso2Code": "LI",
       "name": "Liechtenstein"
@@ -3176,24 +2941,9 @@
       "name": "Sri Lanka"
     },
     {
-      "id": "LMC",
-      "iso2Code": "XN",
-      "name": "Lower middle income"
-    },
-    {
-      "id": "LMY",
-      "iso2Code": "XO",
-      "name": "Low & middle income"
-    },
-    {
       "id": "LSO",
       "iso2Code": "LS",
       "name": "Lesotho"
-    },
-    {
-      "id": "LTE",
-      "iso2Code": "V3",
-      "name": "Late-demographic dividend"
     },
     {
       "id": "LTU",
@@ -3236,11 +2986,6 @@
       "name": "Moldova"
     },
     {
-      "id": "MDE",
-      "iso2Code": "M1",
-      "name": "Middle East (developing only)"
-    },
-    {
       "id": "MDG",
       "iso2Code": "MG",
       "name": "Madagascar"
@@ -3251,11 +2996,6 @@
       "name": "Maldives"
     },
     {
-      "id": "MEA",
-      "iso2Code": "ZQ",
-      "name": "Middle East, North Africa, Afghanistan & Pakistan"
-    },
-    {
       "id": "MEX",
       "iso2Code": "MX",
       "name": "Mexico"
@@ -3264,11 +3004,6 @@
       "id": "MHL",
       "iso2Code": "MH",
       "name": "Marshall Islands"
-    },
-    {
-      "id": "MIC",
-      "iso2Code": "XP",
-      "name": "Middle income"
     },
     {
       "id": "MKD",
@@ -3289,11 +3024,6 @@
       "id": "MMR",
       "iso2Code": "MM",
       "name": "Myanmar"
-    },
-    {
-      "id": "MNA",
-      "iso2Code": "XQ",
-      "name": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)"
     },
     {
       "id": "MNE",
@@ -3334,16 +3064,6 @@
       "id": "MYS",
       "iso2Code": "MY",
       "name": "Malaysia"
-    },
-    {
-      "id": "NAC",
-      "iso2Code": "XU",
-      "name": "North America"
-    },
-    {
-      "id": "NAF",
-      "iso2Code": "M2",
-      "name": "North Africa"
     },
     {
       "id": "NAM",
@@ -3406,19 +3126,9 @@
       "name": "New Zealand"
     },
     {
-      "id": "OED",
-      "iso2Code": "OE",
-      "name": "OECD members"
-    },
-    {
       "id": "OMN",
       "iso2Code": "OM",
       "name": "Oman"
-    },
-    {
-      "id": "OSS",
-      "iso2Code": "S4",
-      "name": "Other small states"
     },
     {
       "id": "PAK",
@@ -3456,11 +3166,6 @@
       "name": "Poland"
     },
     {
-      "id": "PRE",
-      "iso2Code": "V1",
-      "name": "Pre-demographic dividend"
-    },
-    {
       "id": "PRI",
       "iso2Code": "PR",
       "name": "Puerto Rico (US)"
@@ -3486,16 +3191,6 @@
       "name": "West Bank and Gaza"
     },
     {
-      "id": "PSS",
-      "iso2Code": "S2",
-      "name": "Pacific island small states"
-    },
-    {
-      "id": "PST",
-      "iso2Code": "V4",
-      "name": "Post-demographic dividend"
-    },
-    {
       "id": "PYF",
       "iso2Code": "PF",
       "name": "French Polynesia"
@@ -3511,11 +3206,6 @@
       "name": "Romania"
     },
     {
-      "id": "RRS",
-      "iso2Code": "R6",
-      "name": "Resource rich Sub-Saharan Africa countries"
-    },
-    {
       "id": "RUS",
       "iso2Code": "RU",
       "name": "Russian Federation"
@@ -3524,11 +3214,6 @@
       "id": "RWA",
       "iso2Code": "RW",
       "name": "Rwanda"
-    },
-    {
-      "id": "SAS",
-      "iso2Code": "8S",
-      "name": "South Asia"
     },
     {
       "id": "SAU",
@@ -3581,24 +3266,9 @@
       "name": "Serbia"
     },
     {
-      "id": "SSA",
-      "iso2Code": "ZF",
-      "name": "Sub-Saharan Africa (excluding high income)"
-    },
-    {
       "id": "SSD",
       "iso2Code": "SS",
       "name": "South Sudan"
-    },
-    {
-      "id": "SSF",
-      "iso2Code": "ZG",
-      "name": "Sub-Saharan Africa "
-    },
-    {
-      "id": "SST",
-      "iso2Code": "S1",
-      "name": "Small states"
     },
     {
       "id": "STP",
@@ -3636,11 +3306,6 @@
       "name": "Sint Maarten (Dutch part)"
     },
     {
-      "id": "SXZ",
-      "iso2Code": "A4",
-      "name": "Sub-Saharan Africa excluding South Africa"
-    },
-    {
       "id": "SYC",
       "iso2Code": "SC",
       "name": "Seychelles"
@@ -3659,16 +3324,6 @@
       "id": "TCD",
       "iso2Code": "TD",
       "name": "Chad"
-    },
-    {
-      "id": "TEA",
-      "iso2Code": "T4",
-      "name": "East Asia & Pacific (IDA & IBRD countries)"
-    },
-    {
-      "id": "TEC",
-      "iso2Code": "T7",
-      "name": "Europe & Central Asia (IDA & IBRD countries)"
     },
     {
       "id": "TGO",
@@ -3691,34 +3346,14 @@
       "name": "Turkmenistan"
     },
     {
-      "id": "TLA",
-      "iso2Code": "T2",
-      "name": "Latin America & the Caribbean (IDA & IBRD countries)"
-    },
-    {
       "id": "TLS",
       "iso2Code": "TL",
       "name": "Timor-Leste"
     },
     {
-      "id": "TMN",
-      "iso2Code": "T3",
-      "name": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)"
-    },
-    {
       "id": "TON",
       "iso2Code": "TO",
       "name": "Tonga"
-    },
-    {
-      "id": "TSA",
-      "iso2Code": "T5",
-      "name": "South Asia (IDA & IBRD)"
-    },
-    {
-      "id": "TSS",
-      "iso2Code": "T6",
-      "name": "Sub-Saharan Africa (IDA & IBRD countries)"
     },
     {
       "id": "TTO",
@@ -3754,11 +3389,6 @@
       "id": "UKR",
       "iso2Code": "UA",
       "name": "Ukraine"
-    },
-    {
-      "id": "UMC",
-      "iso2Code": "XT",
-      "name": "Upper middle income"
     },
     {
       "id": "URY",
@@ -3806,52 +3436,344 @@
       "name": "Vanuatu"
     },
     {
-      "id": "WLD",
-      "iso2Code": "1W",
-      "name": "World"
-    },
-    {
       "id": "WSM",
       "iso2Code": "WS",
       "name": "Samoa"
     },
     {
-      "id": "XKX",
-      "iso2Code": "XK",
-      "name": "Kosovo"
-    },
-    {
-      "id": "XZN",
-      "iso2Code": "A5",
-      "name": "Sub-Saharan Africa excluding South Africa and Nigeria"
-    },
-    {
       "id": "YEM",
       "iso2Code": "YE",
       "name": "Yemen, Rep."
-    },
-    {
-      "id": "ZAF",
-      "iso2Code": "ZA",
-      "name": "South Africa"
-    },
-    {
-      "id": "ZMB",
-      "iso2Code": "ZM",
-      "name": "Zambia"
-    },
-    {
-      "id": "ZWE",
-      "iso2Code": "ZW",
-      "name": "Zimbabwe"
     }
   ],
   "aggregates": [
     {
+      "id": "AFE",
+      "name": "Africa Eastern and Southern"
+    },
+    {
+      "id": "AFR",
+      "name": "Africa"
+    },
+    {
+      "id": "AFW",
+      "name": "Africa Western and Central"
+    },
+    {
+      "id": "ARB",
+      "name": "Arab World"
+    },
+    {
+      "id": "BEA",
+      "name": "East Asia & Pacific (IBRD-only countries)"
+    },
+    {
+      "id": "BEC",
+      "name": "Europe & Central Asia (IBRD-only countries)"
+    },
+    {
+      "id": "BHI",
+      "name": "IBRD countries classified as high income"
+    },
+    {
+      "id": "BLA",
+      "name": "Latin America & the Caribbean (IBRD-only countries)"
+    },
+    {
+      "id": "BMN",
+      "name": "Middle East, North Africa, Afghanistan & Pakistan (IBRD only)"
+    },
+    {
+      "id": "BSS",
+      "name": "Sub-Saharan Africa (IBRD-only countries)"
+    },
+    {
+      "id": "CAA",
+      "name": "Sub-Saharan Africa (IFC classification)"
+    },
+    {
+      "id": "CEA",
+      "name": "East Asia and the Pacific (IFC classification)"
+    },
+    {
+      "id": "CEB",
+      "name": "Central Europe and the Baltics"
+    },
+    {
+      "id": "CEU",
+      "name": "Europe and Central Asia (IFC classification)"
+    },
+    {
+      "id": "CHI",
+      "name": "Channel Islands"
+    },
+    {
+      "id": "CLA",
+      "name": "Latin America and the Caribbean (IFC classification)"
+    },
+    {
+      "id": "CME",
+      "name": "Middle East and North Africa (IFC classification)"
+    },
+    {
+      "id": "CSA",
+      "name": "South Asia (IFC classification)"
+    },
+    {
+      "id": "CSS",
+      "name": "Caribbean small states"
+    },
+    {
+      "id": "DEA",
+      "name": "East Asia & Pacific (IDA-eligible countries)"
+    },
+    {
+      "id": "DEC",
+      "name": "Europe & Central Asia (IDA-eligible countries)"
+    },
+    {
+      "id": "DLA",
+      "name": "Latin America & the Caribbean (IDA-eligible countries)"
+    },
+    {
+      "id": "DMN",
+      "name": "Middle East, North Africa, Afghanistan & Pakistan (IDA total)"
+    },
+    {
+      "id": "DNS",
+      "name": "IDA countries in Sub-Saharan Africa not classified as fragile situations "
+    },
+    {
+      "id": "DSA",
+      "name": "South Asia (IDA-eligible countries)"
+    },
+    {
+      "id": "DSF",
+      "name": "IDA countries in Sub-Saharan Africa classified as fragile situations "
+    },
+    {
+      "id": "DSS",
+      "name": "Sub-Saharan Africa (IDA-eligible countries)"
+    },
+    {
+      "id": "EAP",
+      "name": "East Asia & Pacific (excluding high income)"
+    },
+    {
+      "id": "EAR",
+      "name": "Early-demographic dividend"
+    },
+    {
+      "id": "EAS",
+      "name": "East Asia & Pacific"
+    },
+    {
+      "id": "ECA",
+      "name": "Europe & Central Asia (excluding high income)"
+    },
+    {
+      "id": "ECS",
+      "name": "Europe & Central Asia"
+    },
+    {
+      "id": "EMU",
+      "name": "Euro area"
+    },
+    {
+      "id": "EUU",
+      "name": "European Union"
+    },
+    {
+      "id": "FCS",
+      "name": "Fragile and conflict affected situations"
+    },
+    {
       "id": "HIC",
       "name": "High income"
+    },
+    {
+      "id": "HPC",
+      "name": "Heavily indebted poor countries (HIPC)"
+    },
+    {
+      "id": "IBB",
+      "name": "IBRD, including blend"
+    },
+    {
+      "id": "IBD",
+      "name": "IBRD only"
+    },
+    {
+      "id": "IBT",
+      "name": "IDA & IBRD total"
+    },
+    {
+      "id": "IDA",
+      "name": "IDA total"
+    },
+    {
+      "id": "IDB",
+      "name": "IDA blend"
+    },
+    {
+      "id": "IDX",
+      "name": "IDA only"
+    },
+    {
+      "id": "INX",
+      "name": "Not classified"
+    },
+    {
+      "id": "LAC",
+      "name": "Latin America & Caribbean (excluding high income)"
+    },
+    {
+      "id": "LCN",
+      "name": "Latin America & Caribbean "
+    },
+    {
+      "id": "LDC",
+      "name": "Least developed countries: UN classification"
+    },
+    {
+      "id": "LIC",
+      "name": "Low income"
+    },
+    {
+      "id": "LMC",
+      "name": "Lower middle income"
+    },
+    {
+      "id": "LMY",
+      "name": "Low & middle income"
+    },
+    {
+      "id": "LTE",
+      "name": "Late-demographic dividend"
+    },
+    {
+      "id": "MDE",
+      "name": "Middle East (developing only)"
+    },
+    {
+      "id": "MEA",
+      "name": "Middle East, North Africa, Afghanistan & Pakistan"
+    },
+    {
+      "id": "MIC",
+      "name": "Middle income"
+    },
+    {
+      "id": "MNA",
+      "name": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)"
+    },
+    {
+      "id": "NAC",
+      "name": "North America"
+    },
+    {
+      "id": "NAF",
+      "name": "North Africa"
+    },
+    {
+      "id": "OED",
+      "name": "OECD members"
+    },
+    {
+      "id": "OSS",
+      "name": "Other small states"
+    },
+    {
+      "id": "PRE",
+      "name": "Pre-demographic dividend"
+    },
+    {
+      "id": "PSS",
+      "name": "Pacific island small states"
+    },
+    {
+      "id": "PST",
+      "name": "Post-demographic dividend"
+    },
+    {
+      "id": "RRS",
+      "name": "Resource rich Sub-Saharan Africa countries"
+    },
+    {
+      "id": "SAS",
+      "name": "South Asia"
+    },
+    {
+      "id": "SSA",
+      "name": "Sub-Saharan Africa (excluding high income)"
+    },
+    {
+      "id": "SSF",
+      "name": "Sub-Saharan Africa "
+    },
+    {
+      "id": "SST",
+      "name": "Small states"
+    },
+    {
+      "id": "SXZ",
+      "name": "Sub-Saharan Africa excluding South Africa"
+    },
+    {
+      "id": "TEA",
+      "name": "East Asia & Pacific (IDA & IBRD countries)"
+    },
+    {
+      "id": "TEC",
+      "name": "Europe & Central Asia (IDA & IBRD countries)"
+    },
+    {
+      "id": "TLA",
+      "name": "Latin America & the Caribbean (IDA & IBRD countries)"
+    },
+    {
+      "id": "TMN",
+      "name": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)"
+    },
+    {
+      "id": "TSA",
+      "name": "South Asia (IDA & IBRD)"
+    },
+    {
+      "id": "TSS",
+      "name": "Sub-Saharan Africa (IDA & IBRD countries)"
+    },
+    {
+      "id": "UMC",
+      "name": "Upper middle income"
+    },
+    {
+      "id": "WLD",
+      "name": "World"
+    },
+    {
+      "id": "XKX",
+      "name": "Kosovo"
+    },
+    {
+      "id": "XZN",
+      "name": "Sub-Saharan Africa excluding South Africa and Nigeria"
+    },
+    {
+      "id": "ZAF",
+      "name": "South Africa"
+    },
+    {
+      "id": "ZMB",
+      "name": "Zambia"
+    },
+    {
+      "id": "ZWE",
+      "name": "Zimbabwe"
     }
   ],
   "count": 296,
-  "updatedAt": "2026-03-26T03:25:39.806Z"
+  "singleCount": 215,
+  "aggregateCount": 81,
+  "updatedAt": "2026-03-26T03:27:23.129Z"
 }

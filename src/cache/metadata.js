@@ -14,6 +14,26 @@ const CACHE_TTL = {
   series: 7 * 24 * 60 * 60 * 1000        // 7 天
 };
 
+// World Bank 聚合代码排除列表
+const AGGREGATE_CODES = new Set([
+  // X* 系列 - 收入/区域聚合
+  'XO', 'XP', 'XD', 'XT', 'XN', 'XU', 'XC', 'XG', 'XJ', 'XQ', 'XF', 'XE', 'XM', 'XI', 'XH', 'XL', 'XY', 'XK',
+  // Z* 系列 - 大区域聚合
+  'ZT', 'ZJ', 'ZQ', 'ZG', 'ZF', 'ZH', 'ZI', 'Z7', 'Z4', 'ZA', 'ZB', 'ZW', 'ZM',
+  // T* 系列 - IDA/IBRD 区域聚合
+  'T5', 'T2', 'T3', 'T6', 'T7', 'T4',
+  // V* 系列 - 人口红利阶段
+  'V4', 'V3', 'V2', 'V1',
+  // 数字 + 字母 - 特殊聚合
+  '1W', '1A', '4E', '7E', '8S', 'B8', 'F1', 'F6',
+  // IFC 分类聚合
+  'A9', 'B4', 'B7', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'JG', 'M1', 'M2', 'N6', 'R6', 'S1', 'S2', 'S3', 'S4',
+  // 其他聚合
+  'A4', 'A5', 'B1', 'B2', 'B3', 'B6',
+  // 2 字母例外
+  'EU', 'OE', 'XD'
+]);
+
 class MetadataCache {
   constructor() {
     this.ensureCacheDir();
@@ -82,13 +102,15 @@ class MetadataCache {
     const countries = response.data[1];
     console.log(`✅ 获取到 ${countries.length} 个经济体`);
     
-    // 区分单一国家和聚合
-    const singleCountries = countries.filter(c => 
-      c.iso2Code && c.iso2Code.length === 2 && c.iso2Code !== 'XD'
-    );
-    const aggregates = countries.filter(c => 
-      !c.iso2Code || c.iso2Code.length > 2 || c.iso2Code === 'XD'
-    );
+    // 区分单一国家和聚合（使用与 filter.js 一致的逻辑）
+    const singleCountries = countries.filter(c => {
+      const code = c.iso2Code;
+      if (!code || code.length !== 2) return false;
+      if (AGGREGATE_CODES.has(code)) return false;
+      return true;
+    });
+    
+    const aggregates = countries.filter(c => !singleCountries.includes(c));
     
     return {
       all: countries.map(c => ({
@@ -109,17 +131,10 @@ class MetadataCache {
         name: c.name
       })),
       count: countries.length,
+      singleCount: singleCountries.length,
+      aggregateCount: aggregates.length,
       updatedAt: new Date().toISOString()
     };
-  }
-
-  async fetchSeries(indicatorId) {
-    console.log(`📈 获取指标 ${indicatorId} 的完整序列...`);
-    const response = await axios.get(`https://api.worldbank.org/v2/indicator/${indicatorId}`, {
-      params: { format: 'json' }
-    });
-    
-    return response.data[1][0];
   }
 
   async get(type, fetchFn) {
@@ -151,7 +166,8 @@ class MetadataCache {
     console.log('\n✅ 元数据缓存更新完成');
     console.log(`   指标：${indicators.count} 个`);
     console.log(`   国家/地区：${countries.count} 个`);
-    console.log(`   单一国家：${countries.singleCountries.length} 个`);
+    console.log(`   单一国家：${countries.singleCount} 个`);
+    console.log(`   聚合/区域：${countries.aggregateCount} 个`);
     
     return { indicators, countries };
   }
