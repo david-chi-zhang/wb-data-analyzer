@@ -2,102 +2,146 @@
   "_comment": "WDI 指标别名配置 - 更新版（使用 Data360 API 实际代码）",
   "_database": "WB_WDI",
   "_updated": "2026-03-25",
-  
   "indicators": {
     "__population": "=== 人口相关 ===",
-    
     "WB_WDI_SP_POP_TOTL": {
-      "aliases": ["population", "人口", "总人口", "total population"],
+      "aliases": [
+        "population",
+        "人口",
+        "总人口",
+        "total population"
+      ],
       "name": "Population, total",
       "name_cn": "总人口",
       "unit": "人",
       "category": "population"
     },
-    
     "__gdp": "=== GDP 相关 ===",
-    
     "WB_WDI_NY_GDP_MKTP_CD": {
-      "aliases": ["gdp", "gdp current", "gdp usd", "GDP 现价", "GDP 美元", "国内生产总值"],
+      "aliases": [
+        "gdp",
+        "gdp current",
+        "gdp usd",
+        "GDP 现价",
+        "GDP 美元",
+        "国内生产总值"
+      ],
       "name": "GDP (current US$)",
       "name_cn": "GDP（现价美元）",
       "unit": "current US$",
       "category": "gdp"
     },
-    
     "WB_WDI_NY_GDP_MKTP_KD_ZG": {
-      "aliases": ["gdp growth", "gdp growth rate", "GDP 增速", "GDP 增长率", "经济增长率"],
+      "aliases": [
+        "gdp growth",
+        "gdp growth rate",
+        "GDP 增速",
+        "GDP 增长率",
+        "经济增长率"
+      ],
       "name": "GDP growth (annual %)",
       "name_cn": "GDP 增长率（年%）",
       "unit": "%",
       "category": "gdp"
     },
-    
     "WB_WDI_NY_GDP_PCAP_CD": {
-      "aliases": ["gdp per capita", "人均 GDP", "人均国内生产总值"],
+      "aliases": [
+        "gdp per capita",
+        "人均 GDP",
+        "人均国内生产总值"
+      ],
       "name": "GDP per capita (current US$)",
       "name_cn": "人均 GDP（现价美元）",
       "unit": "current US$",
       "category": "gdp"
     },
-    
     "__gni": "=== GNI 相关 ===",
-    
     "WB_WDI_NY_GNP_PCAP_CD": {
-      "aliases": ["gni per capita", "gni per capita atlas", "人均 GNI", "人均国民总收入"],
+      "aliases": [
+        "gni per capita",
+        "gni per capita atlas",
+        "人均 GNI",
+        "人均国民总收入"
+      ],
       "name": "GNI per capita, Atlas method (current US$)",
       "name_cn": "人均 GNI（阿特拉斯法，现价美元）",
       "unit": "current US$",
       "category": "gni"
     },
-    
     "__sector": "=== 产业占 GDP 比重 ===",
-    
     "WB_WDI_NV_AGR_TOTL_ZS": {
-      "aliases": ["agriculture gdp", "agriculture share", "农业占比", "农林牧渔", "第一产业"],
+      "aliases": [
+        "agriculture gdp",
+        "agriculture share",
+        "农业占比",
+        "农林牧渔",
+        "第一产业"
+      ],
       "name": "Agriculture, forestry, and fishing, value added (% of GDP)",
       "name_cn": "农业、林业和渔业增加值占 GDP 比重",
       "unit": "% of GDP",
       "category": "sector"
     },
-    
     "WB_WDI_NV_IND_TOTL_ZS": {
-      "aliases": ["industry gdp", "industry share", "工业占比", "第二产业", "工业增加值"],
+      "aliases": [
+        "industry gdp",
+        "industry share",
+        "工业占比",
+        "第二产业",
+        "工业增加值"
+      ],
       "name": "Industry (including construction), value added (% of GDP)",
       "name_cn": "工业增加值（含建筑业）占 GDP 比重",
       "unit": "% of GDP",
       "category": "sector"
     },
-    
     "WB_WDI_NV_IND_MANF_ZS": {
-      "aliases": ["manufacturing gdp", "manufacturing share", "制造业占比", "制造业"],
+      "aliases": [
+        "manufacturing gdp",
+        "manufacturing share",
+        "制造业占比",
+        "制造业"
+      ],
       "name": "Manufacturing, value added (% of GDP)",
       "name_cn": "制造业增加值占 GDP 比重",
       "unit": "% of GDP",
       "category": "sector"
     },
-    
     "WB_WDI_NV_SRV_TOTL_ZS": {
-      "aliases": ["services gdp", "services share", "服务业占比", "第三产业"],
+      "aliases": [
+        "services gdp",
+        "services share",
+        "服务业占比",
+        "第三产业"
+      ],
       "name": "Services, value added (% of GDP)",
       "name_cn": "服务业增加值占 GDP 比重",
       "unit": "% of GDP",
       "category": "sector"
     },
-    
     "__inflation": "=== 通胀相关 ===",
-    
     "WB_WDI_FP_CPI_TOTL_ZG": {
-      "aliases": ["inflation", "cpi", "通胀", "通胀率", "消费者价格指数"],
+      "aliases": [
+        "inflation",
+        "cpi",
+        "通胀",
+        "通胀率",
+        "消费者价格指数"
+      ],
       "name": "Inflation, consumer prices (annual %)",
       "name_cn": "通胀率（消费者价格指数，年%）",
       "unit": "%",
       "category": "inflation"
     },
-    
     "__trade": "=== 贸易相关 ===",
-    
     "WB_WDI_NE_TRD_GNFS_ZS": {
-      "aliases": ["trade", "trade share", "trade as a share of gdp", "贸易总额", "贸易占 GDP 比重"],
+      "aliases": [
+        "trade",
+        "trade share",
+        "trade as a share of gdp",
+        "贸易总额",
+        "贸易占 GDP 比重"
+      ],
       "name": "Trade (% of GDP)",
       "name_cn": "商品和服务贸易总额占 GDP 比重",
       "unit": "% of GDP",
@@ -106,9 +150,14 @@
       "definition": "贸易总额是出口和进口的总和（商品和服务），按现价计算",
       "note": "最常用的贸易开放度指标"
     },
-    
     "WB_WDI_TG_VAL_TOTL_GD_ZS": {
-      "aliases": ["merchandise trade", "merchandise trade share", "merchandise trade as a share of gdp", "商品贸易", "商品贸易占 GDP 比重"],
+      "aliases": [
+        "merchandise trade",
+        "merchandise trade share",
+        "merchandise trade as a share of gdp",
+        "商品贸易",
+        "商品贸易占 GDP 比重"
+      ],
       "name": "Merchandise trade (% of GDP)",
       "name_cn": "商品贸易占 GDP 比重",
       "unit": "% of GDP",
@@ -117,31 +166,114 @@
       "definition": "商品贸易总额（出口 + 进口）占 GDP 比重，仅包括货物贸易，不包括服务",
       "note": "反映货物贸易开放度"
     },
-    
     "WB_WDI_NE_EXP_GNFS_ZS": {
-      "aliases": ["exports", "出口", "出口占 GDP 比重"],
+      "aliases": [
+        "exports",
+        "出口",
+        "出口占 GDP 比重"
+      ],
       "name": "Exports of goods and services (% of GDP)",
       "name_cn": "商品和服务出口占 GDP 比重",
       "unit": "% of GDP",
       "category": "trade"
     },
-    
     "WB_WDI_NE_IMP_GNFS_ZS": {
-      "aliases": ["imports", "进口", "进口占 GDP 比重"],
+      "aliases": [
+        "imports",
+        "进口",
+        "进口占 GDP 比重"
+      ],
       "name": "Imports of goods and services (% of GDP)",
       "name_cn": "商品和服务进口占 GDP 比重",
       "unit": "% of GDP",
       "category": "trade"
     },
-    
     "__employment": "=== 就业相关 ===",
-    
     "WB_WDI_SL_UEM_TOTL_ZS": {
-      "aliases": ["unemployment", "失业率"],
+      "aliases": [
+        "unemployment",
+        "失业率"
+      ],
       "name": "Unemployment, total (% of total labor force)",
       "name_cn": "失业率（占劳动力总数%）",
       "unit": "% of total labor force",
       "category": "employment"
+    },
+    "WB_WDI_GC_BAL_CASH_GD_ZS": {
+      "aliases": [
+        "fiscal balance",
+        "budget balance",
+        "cash surplus",
+        "cash deficit",
+        "财政盈余",
+        "财政赤字",
+        "预算平衡"
+      ],
+      "name": "Cash surplus/deficit (% of GDP)",
+      "name_cn": "现金盈余/赤字占 GDP 比重",
+      "unit": "% of GDP",
+      "category": "public_finance"
+    },
+    "WB_WDI_GC_DOD_TOTL_GD_ZS": {
+      "aliases": [
+        "government debt",
+        "public debt",
+        "国债",
+        "政府债务",
+        "公共债务"
+      ],
+      "name": "Central government debt, total (% of GDP)",
+      "name_cn": "中央政府债务总额占 GDP 比重",
+      "unit": "% of GDP",
+      "category": "public_finance"
+    },
+    "WB_WDI_GC_REV_XGRT_GD_ZS": {
+      "aliases": [
+        "government revenue",
+        "fiscal revenue",
+        "财政收入",
+        "政府收入"
+      ],
+      "name": "Revenue, excluding grants (% of GDP)",
+      "name_cn": "财政收入（不含赠款）占 GDP 比重",
+      "unit": "% of GDP",
+      "category": "public_finance"
+    },
+    "WB_WDI_GC_XPN_TOTL_GD_ZS": {
+      "aliases": [
+        "government expenditure",
+        "fiscal expenditure",
+        "government spending",
+        "财政支出",
+        "政府支出"
+      ],
+      "name": "Expenses (% of GDP)",
+      "name_cn": "财政支出占 GDP 比重",
+      "unit": "% of GDP",
+      "category": "public_finance"
+    },
+    "WB_WDI_GC_TAX_TOTL_GD_ZS": {
+      "aliases": [
+        "tax revenue",
+        "税收收入",
+        "税收"
+      ],
+      "name": "Tax revenue (% of GDP)",
+      "name_cn": "税收收入占 GDP 比重",
+      "unit": "% of GDP",
+      "category": "public_finance"
+    },
+    "WB_WDI_NY_GDP_MKTP_PP_KD": {
+      "aliases": [
+        "gdp ppp",
+        "ppp gdp",
+        "GDP PPP",
+        "购买力平价 GDP"
+      ],
+      "name": "GDP, PPP (constant 2017 international $)",
+      "name_cn": "GDP（购买力平价，2017 年不变价国际元）",
+      "unit": "constant 2017 international $",
+      "category": "gdp"
     }
   }
 }

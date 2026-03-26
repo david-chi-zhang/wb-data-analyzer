@@ -263,7 +263,7 @@ class WorldBankAnalyzer {
     if (!input) return null;
 
     // 1. 直接是指标代码
-    if (/^[A-Z.]+$/.test(input) && INDICATOR_ALIASES[input]) {
+    if (/^[A-Z._]+$/.test(input) && INDICATOR_ALIASES[input]) {
       return input;
     }
 
