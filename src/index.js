@@ -336,6 +336,11 @@ class WorldBankAnalyzer {
       });
     }
 
+    // 对每个国家的数据按年份排序
+    for (const country of Object.keys(grouped)) {
+      grouped[country].data.sort((a, b) => a.year - b.year);
+    }
+
     const result = {
       success: true,
       count: data.length,

@@ -372,6 +372,13 @@ const cagr = analyzer.compute(data.data, 'cagr', {
 3. **国家代码**：使用 ISO 3 字母代码（CHN, USA, IND 等）
 4. **指标代码**：使用 WDI 标准代码（NY.GDP.MKTP.CD 等）
 5. **数据更新**：WDI 数据定期更新，缓存可能不是最新
+6. **⚠️ 图表排序（重要！）**：
+   - **问题**: 时间序列图表中线条混乱、来回跳跃
+   - **原因**: JavaScript `sort()` 默认是字符串排序；API 返回数据不保证有序
+   - **修复**: 
+     - 年份排序必须用 `(a, b) => a - b`（数字比较）
+     - 每个国家的数据点必须按年份升序排序
+   - **详见**: `docs/CHART_SORTING_BEST_PRACTICE.md`
 
 ---
 

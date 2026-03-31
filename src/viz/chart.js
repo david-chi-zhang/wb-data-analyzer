@@ -37,7 +37,7 @@ class ChartGenerator {
 
     const allYears = new Set();
     result.data.forEach(d => d.data.forEach(item => allYears.add(item.year)));
-    const years = Array.from(allYears).sort();
+    const years = Array.from(allYears).sort((a, b) => a - b);  // 数字排序，避免字符串排序问题
 
     const html = this._renderIMFStyle({
       title,
